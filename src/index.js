@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter as Router, Routes,Route, Link, NavLink} from 'react-router-dom';
+import  Product  from './components/Product';
+import { Cart } from './components/Cart';
+import { Checkout, Chekout } from './components/Checkout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+   
   </React.StrictMode>
 );
 
